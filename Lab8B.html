@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+    .about{
+        color: black;
+        font-size:40px;
+    }
+    .about a{
+        text-decoration: none;
+        color: black;
+    }
+    .home{
+        float: left;
+        margin-right: 40px;
+    }
+    .about{
+        float: right;
+        margin-right: 40px;
+    }
+    .mywork{
+        float: right;
+        margin-right: 40px;
+    }
+    .contact{
+        float: right;
+        
+    }
+    .login{
+        float: right;
+        margin-right: 40px;
+    }
+    .search{
+        float: right;
+        width: fit-content;
+        display: flex;
+        height: 40px;
+        
+    }
+    </style>
+    <div style="display: flex; justify-content: space-between;">
+        <img src="DUlogo.png" alt="" width="120px" height="70px">
+        
+        <div class="about">
+            <div class="home"><a href="Home" style="color: red;">Home</a></div>
+            <div class="contact"><a href="Contact">Contact</a></div>
+            <div class="about"><a href="About">Pages</a></div>
+            <div class="mywork"><a href="My Intro">My Intro</a></div>
+            <div class="login"><a href="Login">Services</a></div>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Enter Keyword..." style="margin: 0px; border-top-left-radius: 100px; border-bottom-left-radius: 100px;">
+            <input type="search" placeholder="  Search" style="width: 70px; background-color: red; margin: 0px; border-top-right-radius: 100px; border-bottom-right-radius: 100px;">
+        </div>
+    </div>
+</body>
+</html>
